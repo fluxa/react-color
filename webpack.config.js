@@ -38,6 +38,7 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin({ quiet: true }),
     new webpack.NoErrorsPlugin(),
+    new CompressionPlugin()
   ],
   quiet: true,
 }
