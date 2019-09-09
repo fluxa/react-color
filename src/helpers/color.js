@@ -1,5 +1,5 @@
 import each from 'lodash/each'
-import tinycolor from 'tinycolor2'
+const tinycolor = require('./tinycolor.min.js');
 
 export const simpleCheckForValidColor = (data) => {
   const keysToCheck = ['r', 'g', 'b', 'a', 'h', 's', 'l', 'v']
